@@ -1,6 +1,6 @@
 {
   "name": "fecr",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Modulo de comprobantes electrónicos para el API del Ministerio de Hacienda de Costa Rica versión 4.3",
   "main": "build/fecr.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "@peculiar/webcrypto": "^1.0.22",
     "axios": "^0.19.2",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.31",
     "node-forge": "^0.9.1",
     "openssl-nodejs": "^1.0.5",
     "xadesjs": "^2.0.16",
