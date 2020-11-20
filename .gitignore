@@ -5,3 +5,6 @@ coverage
 examples
 build
 example.js
+package-lock.json
+cert.json
+dist
