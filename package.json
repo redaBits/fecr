@@ -26,7 +26,7 @@
   "homepage": "https://github.com/redaBits/fecr#readme",
   "dependencies": {
     "@peculiar/webcrypto": "^1.0.22",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.31",
     "node-forge": "^0.9.1",
