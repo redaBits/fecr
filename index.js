@@ -1,1 +1,1 @@
-module.exports = require('./lib/fecr');
+module.exports = require("./lib/fecr");

@@ -6,8 +6,8 @@
   "scripts": {
     "prebuild": "npm run lint",
     "build": "babel lib --out-dir build",
-    "lint": "eslint --fix lib/*",
-    "fix": "eslint --fix lib/*",
+    "lint": "eslint --fix . ",
+    "fix": "eslint --fix . ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "Factura",
-    "Electronica"
+    "Electronica",
+    "Costa Rica"
   ],
   "author": "José Daniel Pérez Castañeda",
   "license": "ISC",
@@ -26,14 +27,18 @@
   "homepage": "https://github.com/redaBits/fecr#readme",
   "dependencies": {
     "@peculiar/webcrypto": "^1.0.22",
-    "axios": "^0.19.2",
+    "axios": "^1.2.2",
+    "libxmljs": "^0.19.10",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.31",
-    "node-forge": "^0.9.1",
+    "node-forge": "^1.3.1",
+    "node-gyp": "^9.3.1",
     "openssl-nodejs": "^1.0.5",
     "xadesjs": "^2.0.16",
     "xml2js": "^0.4.23",
-    "xmldom-alpha": "^0.1.28"
+    "xmldom-alpha": "^0.1.28",
+    "xsd-schema-validator": "^0.7.0",
+    "xsd-validator": "^1.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -42,6 +47,8 @@
     "@babel/preset-env": "^7.9.5",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-node": "^4.1.0",
     "eslint-plugin-import": "^2.20.1"
   }
 }

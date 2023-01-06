@@ -1,3 +1,5 @@
 examples
 lib
 example.js
+*.xml
+test*.js

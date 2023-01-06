@@ -4,4 +4,6 @@ npm-debug.log
 coverage
 examples
 build
-example.js
+.vscode
+test*.js
+*.xml
