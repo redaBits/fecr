@@ -3,3 +3,4 @@ lib
 example.js
 *.xml
 test*.js
+.vscode
