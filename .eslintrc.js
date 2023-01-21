@@ -11,6 +11,7 @@ module.exports = {
     "eslint:recommended",
     "google",
   ],
+  ignorePatterns: ["build"],
   rules: {
     quotes: ["error", "double"],
     "require-jsdoc": "off",
