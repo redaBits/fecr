@@ -1,6 +1,6 @@
 {
   "name": "fecr",
-  "version": "1.5.2",
+  "version": "1.5.6",
   "description": "Modulo de comprobantes electrónicos para el API del Ministerio de Hacienda de Costa Rica versión 4.3",
   "main": "build/fecr.js",
   "scripts": {
@@ -37,7 +37,6 @@
     "xadesjs": "^2.0.16",
     "xml2js": "^0.4.23",
     "xmldom-alpha": "^0.1.28",
-    "xsd-schema-validator": "^0.7.0",
     "xsd-validator": "^1.0.2"
   },
   "devDependencies": {
